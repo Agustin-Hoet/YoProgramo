@@ -1,16 +1,14 @@
 body {
     font-size: 16px;
-    background-color: rgb(201, 201, 201);
+    background: -webkit-linear-gradient(left, #d6d6d6, #c0c0c0);
 }
 
 /** HEADER **/
-
 #imagen01 img { 
     border-radius: 8px;
     margin: 15px 10px 10px 15px;
     transition-duration: 0.3s;
 }
-
 #texto1 { /* Argentina Programa */
     margin-left: 80px;
     margin-top: -67px;
@@ -18,7 +16,6 @@ body {
     color: #000000;
     font-size: 0.65em;
 }
-
 #texto2 { /* #YoProgramo */
     margin-left: 23px;
     font-family: 'Roboto Slab', serif;
@@ -27,15 +24,13 @@ body {
     position: relative;
     bottom: 15px;
 }
-
-.twitter {
+.twitter { /* Twitter */
     color:rgb(0, 26, 255);
     text-decoration: none;
     margin-top: -46px;
     margin-right: 145px;
     transition-duration: 0.3s;
 }
-
 .instagram { /* Instagram */
     color: rgb(255, 46, 115);
     text-decoration: none;
@@ -43,7 +38,6 @@ body {
     margin-right: 100px;
     transition-duration: 0.3s;
 }
-
 .button { /* Login */
     background-color: #555555;
     border: none;
@@ -57,31 +51,24 @@ body {
     margin-top: -50px;
     border-radius: 6px;
 }
-
 .btn-group .button:hover {
     background-color: #3e8e41;
 }
-
 a:link { text-decoration: none;
 }
-
 .navbar-brand {
     padding-left: 250px;
     padding-top: 0px;
 }
-
 /* END HEADER */
 
-
 /* BANNER */
-
 .margin {
     margin-top: -20px;
     margin-left: 23px;
     margin-right: 23px;
 }
-
-.imagen02 img {
+.imagen02 img { /* Banner */
     max-width: 100%;
     height: auto;
     display: block;
@@ -89,23 +76,18 @@ a:link { text-decoration: none;
     margin-right: auto;
     border-radius: 25px;
 }
-
 /* END BANNER */
 
-
 /* PERFIL */
-
-.imagen03 img {
+.imagen03 img { /* Foto de perfil */
     border-radius: 50%;
     margin-left: 50px;
     margin-top: -80px;
     position: absolute;
 }
-
 .tipografia {
     font-family: 'Roboto Slab', serif;
 }
-
 .border {
     border-radius: 25px;
     border: 2px solid #2dceff;
@@ -113,120 +95,95 @@ a:link { text-decoration: none;
     margin-right: 23px;
     margin-top: 15px;
 }
-
-.texto3 {
+.texto3 { /* Nombre */
     color: #000000;
     margin-top: 32px;
     text-indent: 50px;
     font-size: 0.8em;
 }
-
 .texto4 {
     color: #000000;
     font-size: 1.3em;
     margin-top: -15px;
 }
-
 .texto5 {
     color: #000000;
     font-size: 1.1em;
     margin-top: -15px;
 }
-
 .container {
     position: relative;
 }
-
 .box {
     color: #000000;
     text-indent: 50px;
     font-size: 0.8em;
 }
-
 .tipografia2 h3 {
     font-weight: 100;
     margin-top: -15px;
     font-size: 1.3em;
     text-indent: 50px;
 }
-
-
 /* FIN PERFIL */
 
-
 /* EDUCACIÓN */
-
 .education {
     color: #000000;
     font-size: 0.8em;
     text-indent: 50px;
 }
-
 .secundaria {
     color: #000000;
     text-indent: 160px;
 }
-
 .secundaria h1 {
     font-size: 1.5em;
     font-weight: 100;
 }
-
 .secundaria h4 {
     margin-top: -10px;
 }
-
 .secundaria h5 {
     margin-top: -20px;
     opacity: 0.6;
 }
-
 #imagen05 img {
     border-radius: 50%;
     margin-left: 65px;
     position: absolute;
 }
-
 .coursera {
     color: #000000;
     text-indent: 160px;
 }
-
 .coursera h1 {
     font-size: 1.5em;
     font-weight: 100;
 }
-
 .coursera h4 {
     margin-top: -10px;
 }
-
 .lista h4 {
     font-weight: 100;
     margin-top: -15px;
     margin-left: 70px;
 }
-
 .lista h4 a {
     color: rgb(59, 23, 221);
 }
-
 .coursera h5 {
     margin-top: -20px;
     opacity: 0.6;
 }
-
 #imagen06 img {
     margin-top: 20px;
     margin-left: 40px;
     position: absolute;
 }
-
 /* FIN EDUCACIÓN */
 
-
 /* HABILIDADES */
-
 .skills {
     color: #000000;
     font-size: 0.8em;
@@ -243,11 +200,72 @@ a:link { text-decoration: none;
     transition-duration: 0.3s;
     cursor: pointer;
 }
-
-
-
 /* FIN BOTONES DE EDICIÓN */
+
 
 .parron {
     margin-top: 20px;
+}
+
+
+
+.casillero01{
+    margin-left: 30px;
+}
+.wrapper .card .circle{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: default;
+}
+.card .circle .box,
+.card .circle .box span{
+    position: absolute;
+    margin-left: -20px;
+    top: 50%;
+    left: 50%;
+}
+.card .circle .box{
+    position: absolute;
+    margin-left: 32px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.2s;
+}
+.card .circle:hover .box{
+    transform: translate(-50%, -50%) scale(0.91);
+}
+.card .circle .box span,
+.wrapper .card .text{
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.circle .box span{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transform: translate(-45%, -45%);
+    transition: all 0.4s;
+}
+.circle .bar {
+    margin-left: -18px;
+}
+.card .text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.casillero02{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -175px;
+}
+.casillero03{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -175px;
 }
