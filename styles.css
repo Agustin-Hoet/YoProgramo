@@ -183,16 +183,6 @@ a:link { text-decoration: none;
 }
 /* FIN EDUCACIÓN */
 
-/* HABILIDADES */
-.skills {
-    color: #000000;
-    font-size: 0.8em;
-    text-indent: 50px;
-}
-
-
-/* FIN HABILIDADES */
-
 /* BOTONES DE EDICIÓN */
 .btn-right { 
     color: rgb(0, 0, 0);
@@ -202,15 +192,15 @@ a:link { text-decoration: none;
 }
 /* FIN BOTONES DE EDICIÓN */
 
-
-.parron {
-    margin-top: 20px;
+/* HABILIDADES */
+.skills {
+    color: #000000;
+    font-size: 0.8em;
+    text-indent: 50px;
 }
-
-
-
 .casillero01{
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 .wrapper .card .circle{
     position: relative;
@@ -261,11 +251,28 @@ a:link { text-decoration: none;
 }
 .casillero02{
     position: absolute;
-    margin-left: 240px;
-    margin-top: -175px;
+    margin-left: 225px;
+    margin-top: -190px;
 }
 .casillero03{
     position: absolute;
-    margin-left: 450px;
-    margin-top: -175px;
+    margin-left: 435px;
+    margin-top: -190px;
 }
+.casillero04{
+    position: absolute;
+    margin-left: 645px;
+    margin-top: -190px;
+}
+.casillero05{
+    position: absolute;
+    margin-left: 855px;
+    margin-top: -190px;
+    text-align: center;
+}
+.casillero06{
+    position: absolute;
+    margin-left: 1065px;
+    margin-top: -190px;
+}
+/* FIN HABILIDADES */

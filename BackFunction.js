@@ -142,6 +142,46 @@ textarea07.addEventListener('keyup', (e) => {
         document.getElementById('agregar02').style.display='none'
     }
 });
+
+function agregartexto03() {
+    
+    document.getElementById('agregar03').style.display='block';
+    let texto08 = document.getElementById('textoagregar03').innerText;
+    console.log(texto08);
+};
+function myFunction08(valor08) {
+    document.getElementById('textoagregar03').innerText = valor08;
+};
+function logMessage06(message08) {
+    console.log(message08 + "<br>");
+}
+let textarea08=document.getElementById('agregar03')
+textarea08.addEventListener('keyup', (e) => {
+    logMessage06('Key "${e.key}" released [event: keyup]');
+    if (e.key=='Enter') {
+        document.getElementById('agregar03').style.display='none'
+    }
+});
+
+function agregartexto04() {
+    
+    document.getElementById('agregar04').style.display='block';
+    let texto09 = document.getElementById('textoagregar04').innerText;
+    console.log(texto09);
+};
+function myFunction09(valor09) {
+    document.getElementById('textoagregar04').innerText = valor09;
+};
+function logMessage07(message09) {
+    console.log(message09 + "<br>");
+}
+let textarea09=document.getElementById('agregar04')
+textarea09.addEventListener('keyup', (e) => {
+    logMessage07('Key "${e.key}" released [event: keyup]');
+    if (e.key=='Enter') {
+        document.getElementById('agregar04').style.display='none'
+    }
+});
 // FIN AGREGAR TEXTO
 
 // HABILIDADES
@@ -156,9 +196,18 @@ $(".circle .bar").circleProgress(options).on('circle-animation-progress',
     $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
 });
 $(".01 .bar").circleProgress({
-    value: 0.85
+    value: 0.90
 });
 $(".02 .bar").circleProgress({
+    value: 0.90
+});
+$(".03 .bar").circleProgress({
+    value: 0.85
+});
+$(".04 .bar").circleProgress({
+    value: 0.80
+});
+$(".05 .bar").circleProgress({
     value: 0.90
 });
 // FIN HABILIDADES
